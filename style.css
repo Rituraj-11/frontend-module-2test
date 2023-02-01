@@ -1,0 +1,87 @@
+* {
+  
+    box-sizing: border-box;
+    margin: 0;
+  padding: 0;
+  }
+
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif; 
+ 
+}
+.mainContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 40px;
+}
+.imgContainer{
+    margin: 10%;
+    display: flex;
+    
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+}
+.images{
+    border: 5px solid black;    
+    border-radius: 10px;
+    box-shadow: 10px 10px gray;
+   
+}
+
+ /* #image4{
+    display: none;
+} */
+#congratualationsimage{
+    display: none;
+}
+ 
+ 
+#forms{
+ 
+    width: 30%;
+    display: none;
+    text-align: start;
+    border: 2px solid black;
+    background-color:brown;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    
+}
+.control{
+    margin: 10px;
+    padding: 10px;
+}
+ 
+
+.control input{
+    display: block;
+    width: 100%;
+    padding: 2%;
+}
+#submitButton{
+    margin: 10px;
+    padding: 2%;
+    width: 95%;
+    background-color:yellowgreen;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    
+}
+ 
+.dice{
+    display: none;
+}
+ 
+ 
